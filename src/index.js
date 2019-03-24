@@ -16,7 +16,6 @@ const PollingApp = (temp, node) => {
   doPeriodicPollJob(); // do actual job
   const updateInterval = event => {
     node.period = sanitize(event.target.value); // update poll interval
-    node.diff(0); // queue up next poll job immediately
   }
   return [ // return DOM (could use fragments <>...</> if desired)
     <p>
