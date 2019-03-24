@@ -11,3 +11,7 @@ https://codesandbox.io/s/github/atlassubbed/play-dynamic-polling
 ### what to do
 
 Try fiddling with the interval value.
+
+### made with 💜
+
+[Relax](https://github.com/atlassubbed/atlas-relax)
