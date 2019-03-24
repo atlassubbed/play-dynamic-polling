@@ -1,10 +1,7 @@
 import { diff } from "atlas-relax";
 import { t } from "atlas-relax-jsx-pragmas";
 import DOMRenderer from "atlas-mini-dom";
-
-// this line is needed for codesandbox
-// (they do not support custom pragmas; see .babelrc's "pragma")
-window.React = { createElement: t }
+/**@jsx t*/
 
 const minInterval = 0, maxInterval = 5e3;
 // force the number to be in [minInterval, maxInterval]
