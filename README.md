@@ -8,6 +8,6 @@ Relax, dynamic polling is easy!
 
 https://codesandbox.io/s/github/atlassubbed/play-dynamic-polling
 
-### what do do
+### what to do
 
 Try fiddling with the interval value.
