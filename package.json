@@ -13,7 +13,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/atlassubbed/play-dynamic-polling.git"
   },
   "keywords": [],
   "author": "atlassubbed <atlassubbed@gmail.com>",
@@ -41,5 +41,13 @@
   "engines": {
     "node": "^10.1.0",
     "npm": "^6.0.1"
-  }
+  },
+  "dependencies": {
+    "atlas-mini-dom": "^1.0.1",
+    "atlas-relax": "^1.1.0",
+    "atlas-relax-jsx-pragmas": "^1.0.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  },
+  "homepage": "https://github.com/atlassubbed/play-dynamic-polling#readme",
+  "bugs": "https://github.com/atlassubbed/play-dynamic-polling/issues"
 }
